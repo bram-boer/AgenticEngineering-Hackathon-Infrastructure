@@ -36,7 +36,10 @@ flowchart LR
 > Service. Same technology in every track — that is what lets the expert labs break and scan
 > *your* deployment. See [the fault and vulnerability contract](../concepts/fault-and-vulnerability.md).
 
-Reference versions of all of these live in [`.github/agents/`](../../.github/agents/) and [`.github/prompts/`](../../.github/prompts/). **Peek only when stuck** — writing them yourself is the point. A sanitized stuck-team example set is also available in [`examples/beginner/`](examples/beginner/) with agents, prompts, a skill and a handover log.
+Starter reference assets live in [`.github/agents/`](../../.github/agents/) and
+[`.github/prompts/`](../../.github/prompts/). **Peek only when stuck** — writing them yourself is the
+point. A complete sanitized stuck-team example set is available in
+[`examples/beginner/`](examples/beginner/) with agents, prompts, a skill and a handover log.
 
 ---
 

@@ -204,7 +204,7 @@ dotnet build src/ContosoTicketing
 ├── .devcontainer/devcontainer.json      # Codespaces-ready environment
 ├── .github/
 │   ├── agents/                          # 📖 Reference agents (architect → sre)
-│   ├── prompts/                         # 📖 Reference prompts, numbered per track
+│   ├── prompts/                         # 📖 Starter reference prompts for key track steps
 │   ├── instructions/                    # 🤖 Auto-activating Copilot guidelines
 │   ├── workflows/infra-ci.yml           # Bicep build + lint on every PR
 │   ├── workflows/app-ci.yml             # .NET build, CodeQL and dependency review
@@ -219,7 +219,7 @@ dotnet build src/ContosoTicketing
 ├── infra/                               # 📦 The shared Contoso Ticketing baseline
 │   ├── main.bicep · main.bicepparam
 │   └── modules/{networking,database,webapp,monitoring,alerts}.bicep
-├── knowledge/                           # Azure SRE Agent architecture, runbook and escalation policy
+├── knowledge/                           # Reference Azure SRE Agent knowledge starters
 ├── src/ContosoTicketing/                # 📦 The shared .NET 8 application
 └── scripts/validate-infra.sh
 ```

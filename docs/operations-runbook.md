@@ -1,8 +1,9 @@
 # Contoso Ticketing Operations Runbook
 
 This runbook covers the reference deployment in `infra/`. Source control is the desired state; make
-persistent changes through Bicep and use the live checks in
-[`docs/desired-state.md`](desired-state.md) after every deployment or incident.
+persistent changes through Bicep and, after completing
+[Expert Lab 2](expert/lab-02-desired-state.md), use your `docs/desired-state.md` checks after every
+deployment or incident.
 
 ## Deployment context
 

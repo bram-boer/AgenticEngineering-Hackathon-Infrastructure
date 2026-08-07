@@ -32,7 +32,8 @@ authorization.
 
 - `infra/main.bicep` composes all Azure resources.
 - `infra/modules/` owns network, database, web, monitoring, and alert configuration.
-- `docs/desired-state.md` contains live verification and reconciliation commands.
+- Expert Lab 2 has participants create `docs/desired-state.md` with live verification and
+  reconciliation commands.
 - `docs/operations-runbook.md` owns the private SQL bootstrap procedure.
 
 Never remediate an incident by enabling SQL public access, adding a password, weakening TLS/HTTPS,
