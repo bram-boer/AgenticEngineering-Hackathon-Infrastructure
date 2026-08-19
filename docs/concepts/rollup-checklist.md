@@ -4,6 +4,10 @@ Finished the 🟢 beginner or 🟡 intermediate track? You do **not** start over
 becomes the expert track's starting point — provided it satisfies the contract the expert labs
 assume.
 
+For the shared validation evidence and known intermediate cleanup debt, see the
+[beginner/intermediate parity report](../track-parity.md). That report is read-only evidence;
+it does not authorize the expert-lab gate.
+
 Work through this checklist with a coach. It takes about 15 minutes.
 
 ## 1. The workload is compliant
