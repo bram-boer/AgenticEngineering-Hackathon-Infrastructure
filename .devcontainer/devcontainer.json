@@ -10,11 +10,15 @@
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
+      "version": "lts",
+      "pnpmVersion": "none"
     },
     "ghcr.io/devcontainers/features/dotnet:2": {
       "version": "8.0"
     }
+  },
+  "containerEnv": {
+    "NPM_CONFIG_REGISTRY": "https://packagefeedproxy.microsoft.io/npm/"
   },
   "customizations": {
     "vscode": {
@@ -27,6 +31,6 @@
       ]
     }
   },
-  "postCreateCommand": "az bicep install && chmod +x scripts/*.sh",
+  "postCreateCommand": "az bicep install",
   "remoteUser": "vscode"
 }
